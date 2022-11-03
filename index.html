@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/glide.core.min.css" />
+    <link rel="stylesheet" href="./CSS/glide.theme.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Clara Impressos</title>
+  </head>
+  <body class="">
+    <nav id="navigation" class="">
+      <div class="wrapper">
+        <a class="logo" href="#home">
+          <img
+            class="nav_logo"
+            src="./assets\CLARA_logotipo.png"
+            width="140"
+            height="50"
+            alt="logo clara impressos"
+          />
+          <img
+            class="nav_logo_branco"
+            src="./assets\clara Impressos logo Branco.png"
+            width="140"
+            height="55"
+            alt="logo clara impressos"
+          />
+        </a>
+
+        <div class="menu">
+          <ul>
+            <li><a onclick="closeMenu()" href="#home">Início</a></li>
+            <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+            <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
+          </ul>
+
+          <a class="button" onclick="closeMenu()" href="#contact"
+            >Fale Conosco</a
+          >
+
+          <ul class="Social-links">
+            <li>
+              <a target="_blank" href="https://instagram.com"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1.99997H7C4.23858 1.99997 2 4.23855 2 6.99997V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V6.99997C22 4.23855 19.7614 1.99997 17 1.99997Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.9997 11.3701C16.1231 12.2023 15.981 13.0523 15.5935 13.7991C15.206 14.5459 14.5929 15.1515 13.8413 15.5297C13.0898 15.908 12.2382 16.0397 11.4075 15.906C10.5768 15.7723 9.80947 15.3801 9.21455 14.7852C8.61962 14.1903 8.22744 13.4229 8.09377 12.5923C7.96011 11.7616 8.09177 10.91 8.47003 10.1584C8.84829 9.40691 9.45389 8.7938 10.2007 8.4063C10.9475 8.0188 11.7975 7.87665 12.6297 8.00006C13.4786 8.12594 14.2646 8.52152 14.8714 9.12836C15.4782 9.73521 15.8738 10.5211 15.9997 11.3701Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.5 6.49997H17.51"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          aria-expanded="false"
+          aria-label="Abir menu"
+          onclick="openMenu()"
+          class="open-menu"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 20H30"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10 12H30"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18 28L30 28"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+
+        <button
+          aria-expanded="true"
+          aria-label="Fechar menu"
+          onclick="closeMenu()"
+          class="close-menu"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 10L10 30M10 10L30 30"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h1>O caminho certo para sua empresa começa aqui!</h1>
+          </header>
+  
+          <div class="content">
+            <p>
+              Materiais gráficos da melhor qualidade qualidade para a sua empresa ou escola
+            </p>
+          </div>
+        </div>
+        <div class="col-b">
+          <img src="./assets\capa - flores e boboletas 2.png" alt="flores rodeadas por boboletas">
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrapper">
+        <header>
+          <h4>Serviços</h4>
+          <h2>Que tipo de materiais produzimos?</h2>
+        </header>
+
+        <div class="content">
+          <div class="cards">
+            <div class="card" id="Escolares">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                <path
+                  d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                  stroke="#00856F"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <h3>Materias Escolares Padronizados</h3>
+
+              <div class="glide__track" id="autoGlider"
+              data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide">
+                    <img
+                      src="./assets\Serviços\Materiais Escolares Personalizados\agendas fechadas.jpg"
+                      alt="seis agendas fechadas"
+                    />
+                  </li>
+                  <li class="glide__slide">
+                    <img
+                      src="./assets\Serviços\Materiais Escolares Personalizados\agendas escolares 5.png"
+                      alt="quatro agendas fechadas e duas abertas"
+                    />
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets\Serviços\Materiais Escolares Personalizados\agendas escolares 1.png" alt="quatro agendas fechadas e uma aberta">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets\Serviços\Materiais Escolares Personalizados\agendas escolares 2.png" alt="quatro agendas fechadas e uma aberta">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets\Serviços\Materiais Escolares Personalizados\agendas escolares 3.png" alt="quatro agendas fechadas e uma aberta">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets\Serviços\Materiais Escolares Personalizados\agendas escolares 4.png" alt="quatro agendas fechadas e uma aberta">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="assets\Serviços\Materiais Escolares Personalizados\cadernos escolares.png" alt="dois cadernos escolares lado a lado">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets\Serviços\Materiais Escolares Personalizados\classificadores escolares.jpg" alt="classificadores escolares">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets\Serviços\Materiais Escolares Personalizados\classificadores escolares 2.jpg" alt="classificadores escolares com elástico">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets\Serviços\Materiais Escolares Personalizados\pastas do aluno.jpg" alt="duas pastas do aluno lado a lado">
+                  </li>
+                </ul>
+              </div>
+              <div class="glide__arrows" data-glide-el="controls">
+                <button
+                  class="glide__arrow glide__arrow--left"
+                  data-glide-dir="<"
+                >
+                  prev
+                <button
+                  class="glide__arrow glide__arrow--right auto"
+                  id="automatic_button-2"
+                  data-glide-dir=">"
+                  
+                >
+                  next
+                </button>
+              </div>
+              <p class="descricao">
+                agendas escolares, cadernos,  classificadores e pastas do aluno
+              </p>
+            </div>
+            <div class="card" id="Comercial">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                <path
+                  d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                  stroke="#00856F"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <h3>Linha Comercial</h3>
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide">
+                    <img
+                      src="./assets\Serviços\Papelaria Personalizada\calendarios.jpg"
+                      alt="vários calendários juntos"
+                    />
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets\Serviços\Linha Comercial\certificados de coragem.jpg" alt="certificados de coragem ajuntados um acima do outro">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets\Serviços\Linha Comercial\classificadores 2.jpg" alt="três classificadores ajuntados">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets\Serviços\Linha Comercial\classificadores.jpg" alt="três classificadores ajuntados">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets\Serviços\Linha Comercial\etiquetas.jpg" alt="várias etiquetas ajuntadas">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets\Serviços\Linha Comercial\folhetos.jpg" alt="folders e malas diretas ajuntadas">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets\Serviços\Linha Comercial\pasta ortodontica.jpg" alt="pasta ortodôntica">
+                  </li>
+                </ul>
+              </div>
+              <div class="glide__arrows" data-glide-el="controls">
+                <button
+                  class="glide__arrow glide__arrow--left"
+                  data-glide-dir="<"
+                >
+                  prev
+                </button>
+                <button
+                  class="glide__arrow glide__arrow--right"
+                  id="automatic_button-3" 
+                  data-glide-dir=">"
+                >
+                  next
+                </button>
+              </div>
+              <p class="descricao">
+                folder, calendários, certificados de coragem, classificadores, etiquetas, mala direta
+              </p>
+            </div>
+            <div class="card" id="Papelaria">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                <path
+                  d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                  stroke="#00856F"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <h3>Papelaria Personalizada</h3>
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide">
+                    <img
+                      src="./assets\Serviços\Papelaria Personalizada\geral.jpg"
+                      alt="vários materias diferentes ajuntados"
+                    />
+                  </li>
+                  <li class="glide__slide">
+                    <img src="assets\Serviços\Papelaria Personalizada\agendas.png" alt="quatro agendas lado a lado">
+                  </li> 
+                  <li class="glide__slide">
+                    <img src="assets\Serviços\Papelaria Personalizada\envelopes grandes.jpg" alt="vários envelopes ajuntados">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="assets\Serviços\Papelaria Personalizada\envelopes pequenos.jpg" alt="vários envelopes pequenos ajuntados">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="assets\Serviços\Papelaria Personalizada\envelopes pequenos 2.jpg" alt="vários envelopes pequenos ajuntados">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="assets\Serviços\Papelaria Personalizada\ofício timbrado 1.jpg" alt="papeis ofício timbrados ajuntados">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="assets\Serviços\Papelaria Personalizada\ofício timbrado 3.jpg" alt="papeis ofício timbrados ajuntados">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="assets\Serviços\Papelaria Personalizada\pastas.jpg" alt="três pastas ajuntadas">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="assets\Serviços\Papelaria Personalizada\pastas 2.jpg" alt="duas pastas, de um tipo diferente, ajuntadas">
+                  </li>
+                </ul>
+              </div>
+              <div class="glide__arrows" data-glide-el="controls">
+                <button
+                  class="glide__arrow glide__arrow--left"
+                  data-glide-dir="<"
+                >
+                  prev
+                </button>
+                <button
+                  class="glide__arrow glide__arrow--right"
+                  id="automatic_button-4" 
+                  data-glide-dir=">"
+                >
+                  next
+                </button>
+              </div>
+              <p class="descricao">
+                
+                agendas, calendários, timbrados — ofício e envelopes — personalizados
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>Sobre nós</h4>
+            <h2>Entenda quem somos e por que existimos</h2>
+          </header>
+
+          <div class="content">
+            <p>
+                Fazemos o que mais amamos: entregar materiais gráficos com a mais alta qualidade e formar vínculos que vão além das fronteiras comerciais.
+            </p>
+            <p>
+              Tudo com responsabilidade, ética, rapidez e foco na satisfação de nossos clientes.
+            </p>
+            <p>
+              A começar pelo atendimento, procuramos ser sempre rápidos e diretos; a pontualidade na entrega dos serviços - desde o mais simples ao mais complexo; da elaboração de projetos gráficos à finalização, junto 
+              aos clientes... tudo isso envolto de preocupação pela qualidade. Da escolha do papel ao tipo de acabamento da pré-impressão à logística. 
+            </p>
+            <p>
+              Buscamos um espaço de tempo menor entre o atendimento e a espera (quase que imediata) pelos serviços,  utilizando os meios eletrônicos mais usados atualmente, dando maior rapidez na resposta, mostrando 
+              respeito por nossos clientes. 
+            </p>
+            <p>
+              Esse é nosso lema! Essa parceria é o que leva nosso trabalho ao máximo nível de sucesso!
+            </p>
+          </div>
+        </div>
+
+        <div class="col-b">
+          <img
+            src="./assets\MASCOTE da Clara impressos.png"
+            width="350"
+            height="550"
+            alt="imagem de garota com um vestido roxo e asas de borboleta"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h2>Entre em contato com a gente</h2>
+          </header>
+
+          <div class="content">
+            <ul>
+              <li>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z"
+                    stroke="#00856F"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                    stroke="#00856F"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                Rua Coromandel, 71 - Sala 04 - Brasília | Feira de Santana-Ba
+              </li>
+              <li>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+                    stroke="#00856F"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M22 6L12 13L2 6"
+                    stroke="#00856F"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                claraimpressosgraficos@gmail.com
+              </li>
+              <li>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1.99997H7C4.23858 1.99997 2 4.23855 2 6.99997V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V6.99997C22 4.23855 19.7614 1.99997 17 1.99997Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.9997 11.3701C16.1231 12.2023 15.981 13.0523 15.5935 13.7991C15.206 14.5459 14.5929 15.1515 13.8413 15.5297C13.0898 15.908 12.2382 16.0397 11.4075 15.906C10.5768 15.7723 9.80947 15.3801 9.21455 14.7852C8.61962 14.1903 8.22744 13.4229 8.09377 12.5923C7.96011 11.7616 8.09177 10.91 8.47003 10.1584C8.84829 9.40691 9.45389 8.7938 10.2007 8.4063C10.9475 8.0188 11.7975 7.87665 12.6297 8.00006C13.4786 8.12594 14.2646 8.52152 14.8714 9.12836C15.4782 9.73521 15.8738 10.5211 15.9997 11.3701Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.5 6.49997H17.51"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                @claraimpressos
+              </li>
+              <li>
+                <svg 
+                width="24" 
+                height="24" 
+                viewBox="0 0 474 474"  
+                xmlns="http://www.w3.org/2000/svg"
+                class="cellphone"
+                style="margin-left:0.1rem">
+                  <path 
+                    d="M374.456 293.506C364.756 283.406 353.056 278.006 340.656 278.006C328.356 278.006 316.556 283.306 306.456 293.406L274.856 324.906C272.256 323.506 269.656 322.206 267.156 320.906C263.556 319.106 260.156 317.406 257.256 315.606C227.656 296.806 200.756 272.306 174.956 240.606C162.456 224.806 154.056 211.506 147.956 198.006C156.156 190.506 163.756 182.706 171.156 175.206C173.956 172.406 176.756 169.506 179.556 166.706C200.556 145.706 200.556 118.506 179.556 97.506L152.256 70.206C149.156 67.106 145.956 63.906 142.956 60.706C136.956 54.506 130.656 48.106 124.156 42.106C114.456 32.506 102.856 27.406 90.656 27.406C78.456 27.406 66.656 32.506 56.656 42.106C56.556 42.206 56.556 42.206 56.456 42.306L22.456 76.606C9.65603 89.406 2.35603 105.006 0.756029 123.106C-1.64397 152.306 6.95603 179.506 13.556 197.306C29.756 241.006 53.956 281.506 90.056 324.906C133.856 377.206 186.556 418.506 246.756 447.606C269.756 458.506 300.456 471.406 334.756 473.606C336.856 473.706 339.056 473.806 341.056 473.806C364.156 473.806 383.556 465.506 398.756 449.006C398.856 448.806 399.056 448.706 399.156 448.506C404.356 442.206 410.356 436.506 416.656 430.406C420.956 426.306 425.356 422.006 429.656 417.506C439.556 407.206 444.756 395.206 444.756 382.906C444.756 370.506 439.456 358.606 429.356 348.606L374.456 293.506ZM410.256 398.806C410.156 398.806 410.156 398.906 410.256 398.806C406.356 403.006 402.356 406.806 398.056 411.006C391.556 417.206 384.956 423.706 378.756 431.006C368.656 441.806 356.756 446.906 341.156 446.906C339.656 446.906 338.056 446.906 336.556 446.806C306.856 444.906 279.256 433.306 258.556 423.406C201.956 396.006 152.256 357.106 110.956 307.806C76.856 266.706 54.056 228.706 38.956 187.906C29.656 163.006 26.256 143.606 27.756 125.306C28.756 113.606 33.256 103.906 41.556 95.606L75.656 61.506C80.556 56.906 85.756 54.406 90.856 54.406C97.156 54.406 102.256 58.206 105.456 61.406C105.556 61.506 105.656 61.606 105.756 61.706C111.856 67.406 117.656 73.306 123.756 79.606C126.856 82.806 130.056 86.006 133.256 89.306L160.556 116.606C171.156 127.206 171.156 137.006 160.556 147.606C157.656 150.506 154.856 153.406 151.956 156.206C143.556 164.806 135.556 172.806 126.856 180.606C126.656 180.806 126.456 180.906 126.356 181.106C117.756 189.706 119.356 198.106 121.156 203.806C121.256 204.106 121.356 204.406 121.456 204.706C128.556 221.906 138.556 238.106 153.756 257.406L153.856 257.506C181.456 291.506 210.556 318.006 242.656 338.306C246.756 340.906 250.956 343.006 254.956 345.006C258.556 346.806 261.956 348.506 264.856 350.306C265.256 350.506 265.656 350.806 266.056 351.006C269.456 352.706 272.656 353.506 275.956 353.506C284.256 353.506 289.456 348.306 291.156 346.606L325.356 312.406C328.756 309.006 334.156 304.906 340.456 304.906C346.656 304.906 351.756 308.806 354.856 312.206C354.956 312.306 354.956 312.306 355.056 312.406L410.156 367.506C420.456 377.706 420.456 388.206 410.256 398.806Z"
+                    fill="#7e2a72" 
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path 
+                    d="M256.056 112.706C282.256 117.106 306.056 129.506 325.056 148.506C344.056 167.506 356.356 191.306 360.856 217.506C361.956 224.106 367.656 228.706 374.156 228.706C374.956 228.706 375.656 228.606 376.456 228.506C383.856 227.306 388.756 220.306 387.556 212.906C382.156 181.206 367.156 152.306 344.256 129.406C321.356 106.506 292.456 91.506 260.756 86.106C253.356 84.906 246.456 89.806 245.156 97.106C243.856 104.406 248.656 111.506 256.056 112.706Z" 
+                    fill="#7e2a72"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path 
+                    d="M473.256 209.006C464.356 156.806 439.756 109.306 401.956 71.506C364.156 33.706 316.656 9.106 264.456 0.205998C257.156 -1.094 250.256 3.906 248.956 11.206C247.756 18.606 252.656 25.506 260.056 26.806C306.656 34.706 349.156 56.806 382.956 90.506C416.756 124.306 438.756 166.806 446.656 213.406C447.756 220.006 453.456 224.606 459.956 224.606C460.756 224.606 461.456 224.506 462.256 224.406C469.556 223.306 474.556 216.306 473.256 209.006Z" 
+                    fill="#7e2a72"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                  
+                  
+                (75)99162-7887
+              </li>
+            </ul>
+
+            <a class="button" href="https://wa.me/557591627887" target="_blank"
+              ><svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.6 14.0001C16.4 13.9001 15.1 13.3001 14.9 13.2001C14.7 13.1001 14.5 13.1001 14.3 13.3001C14.1 13.5001 13.7 14.1001 13.5 14.3001C13.4 14.5001 13.2 14.5001 13 14.4001C12.3 14.1001 11.6 13.7001 11 13.2001C10.5 12.7001 10 12.1001 9.6 11.5001C9.5 11.3001 9.6 11.1001 9.7 11.0001C9.8 10.9001 9.9 10.7001 10.1 10.6001C10.2 10.5001 10.3 10.3001 10.3 10.2001C10.4 10.1001 10.4 9.9001 10.3 9.8001C10.2 9.7001 9.7 8.5001 9.5 8.0001C9.4 7.3001 9.2 7.3001 9 7.3001C8.9 7.3001 8.7 7.3001 8.5 7.3001C8.3 7.3001 8 7.5001 7.9 7.6001C7.3 8.2001 7 8.9001 7 9.7001C7.1 10.6001 7.4 11.5001 8 12.3001C9.1 13.9001 10.5 15.2001 12.2 16.0001C12.7 16.2001 13.1 16.4001 13.6 16.5001C14.1 16.7001 14.6 16.7001 15.2 16.6001C15.9 16.5001 16.5 16.0001 16.9 15.4001C17.1 15.0001 17.1 14.6001 17 14.2001C17 14.2001 16.8 14.1001 16.6 14.0001ZM19.1 4.9001C15.2 1.0001 8.9 1.0001 5 4.9001C1.8 8.1001 1.2 13.0001 3.4 16.9001L2 22.0001L7.3 20.6001C8.8 21.4001 10.4 21.8001 12 21.8001C17.5 21.8001 21.9 17.4001 21.9 11.9001C22 9.3001 20.9 6.8001 19.1 4.9001ZM16.4 18.9001C15.1 19.7001 13.6 20.2001 12 20.2001C10.5 20.2001 9.1 19.8001 7.8 19.1001L7.5 18.9001L4.4 19.7001L5.2 16.7001L5 16.4001C2.6 12.4001 3.8 7.4001 7.7 4.9001C11.6 2.4001 16.6 3.7001 19 7.5001C21.4 11.4001 20.3 16.5001 16.4 18.9001Z"
+                  fill="white"
+                />
+              </svg>
+              fale conosco pelo whatsapp
+            </a>
+          </div>
+        </div>
+        <div class="col-b">
+          <img 
+          src="./assets\Agenda CAPA.png" 
+          width="350"
+          height="600"
+          alt="imagem de duas flores com as cores verde e roxo">
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <div class="col-a">
+          <p class="direitos">
+            © CLARA IMPRESSOS - TODOS OS DIREITOS RESERVADOS.
+          </p>
+          <p class="creditos">Website criado por:</p>
+          <a href="https://matheus-a-ferreira.github.io/Portfolio/" target="_blank" class="maf creditos">
+          <img src="assets\Logo MAF 10mm branco.png" alt="logo MAF">
+          </a>
+          <ul class="Social-links">
+            <li>
+              <a target="_blank" href="https://instagram.com"
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-b" id="clientes" >
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\BIOCENTER_2022_Logotipo.png" alt="logo biocenter" id="biocenter">
+              </li>
+              <li class="glide__slide"><img src="./assets\Logos Clientes Clara Impressos\CEPARH_Logotipo.png" alt="logo cepah">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\CooperEducar_LOGOTIPO.png" alt="logo cooper educar" id="cooper">
+              </li>
+              <li class="glide__slide"><img src="./assets\Logos Clientes Clara Impressos\Clínica_ÍMPAR_LOGOTIPO.png" alt="log clínica ímpar"" id="impar">
+              </li>
+              <li class="glide__slide"><img src="./assets\Logos Clientes Clara Impressos\Clínica_REUMATO_LOGOTIPO.png" alt="logo reumato" id="reumato">
+              </li>
+              <li class="glide__slide">
+                <p class="espaco" id="a">a</p>
+                <p class="espaco">b</p>
+                <img src="./assets\Logos Clientes Clara Impressos\CLUBE VIDA_LOGOTIPO.png" alt="logo clube mais vida" id="maisvida">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\Ct Méd NORDESTINO_LOGOTIPO.png" alt="logo centro médico nordestino">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\Dra. Maria Rubia_LOGOTIPO.png" alt="logo doutora mara rúbia">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\Col. VIRAMUNDO Kids_LOGOTIPO.png" alt="logo colégio viramundo kids" id="viraKids">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\Col. VIRAMUNDO_LOGOTIPO.png" alt="logo colégio voramundo" id="viramundo">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\Dra. SILVIA JESUINO_LOGO.png" alt="logo doutora silvia jesuino" id="silviajezuino">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\Geriavida LOGOTIPO.png" alt="logo geriavida">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\Col. PROJEÇÃO logo.png" alt="logo colégio projeção" id="projecao">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\IHEF KIDS_LOGOTIPO.png" alt="logo IHEF kids" id="ihef_kids">
+              </li>
+              <li class="glide__slide">
+                <p class="espaco" id="cimaihef">a</p>
+                <img src="./assets\Logos Clientes Clara Impressos\IHEF Laboratorio NOVA_LOGOTIPO.png" alt="logo IHEF" id="ihef">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\INCENTIVAR_LOGOTIPO.png" alt="logo incentivar" id="incentivar">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\Esc Casa do Horto_LOGOTIPO.png" alt="logo casa do horto" id="horto">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\IOB_Capim Grosso_LOGOTIPO.png" alt="logo IOB" id="iob">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\LAB Analise_LOGO nova.png" alt="logo laboratório análise" id="analise">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\Lab LADE_logotipo.png" alt="logo laboratório lade" id="lade">
+              </li>
+              <li class="glide__slide">
+                <p class="espaco" id="labop">a</p>
+                <img src="./assets\Logos Clientes Clara Impressos\LABOP_logotipo.png" alt="logo labop" id="labop">
+              </li><li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\Esc. EAS_LOGOTIPO.png" alt="logo escola arte do saber" id="eas">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\MEDDI LAB_LOGOTIPO.png" alt="logo laboratório meddi" id="meddi">
+              </li>
+              <li class="glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\MULTIMAGEM_LOGOTIPO.png" alt="logo multimagem" id="multimagem">
+              </li>
+              <li class="./glide__slide">
+                <img src="./assets\Logos Clientes Clara Impressos\MDArt_LOGOTIPO.png" alt="logo mdart" id="mdart">
+              </li>
+            </ul>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+            <button class="glide__arrow glide__arrow--right"
+             id="automatic_button" data-glide-dir=">">next</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a id="backToTopButton" href="#home">
+      <svg
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="20" cy="20" r="20" fill="#00856F" />
+        <path
+          d="M20 27V13"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M13 20L20 13L27 20"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </a>
+
+    <!--ScrollReveal Lib-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
+    <script>
+      const config = {
+        type: 'carousel',
+        perView: 1.5
+      }
+
+      const footer ={
+        type: 'carousel',
+        perView: 2
+      }
+    </script>
+ 
+    <script>
+      new Glide('#Escolares', config).mount()
+    </script>
+    <script>
+      new Glide('#Comercial', config).mount()
+    </script>
+    <script>
+      new Glide('#Papelaria', config).mount()
+    </script>
+    <script>
+      new Glide('#clientes', footer).mount()
+    </script>
+
+  </body>
+</html>
