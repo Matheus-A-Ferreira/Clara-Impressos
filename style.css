@@ -660,6 +660,11 @@ footer .glide__slide #projecao {
   margin-top: 1.5rem;
 }
 
+img#r_alves{
+  height: 13.5rem;
+  padding-top: 0rem;
+}
+
 footer .glide__slide #viraKids,
 footer .glide__slide #viramundo {
   height: 13.5rem;
@@ -1158,6 +1163,10 @@ button.glide__arrow:hover {
     margin-left: 1rem;
     padding-right: 3rem;
     padding-top: 4rem;
+    height: 20.256rem;
+  }
+  
+  footer .glide_slide #r_alves{
     height: 20.256rem;
   }
 
