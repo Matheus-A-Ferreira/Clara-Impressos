@@ -613,11 +613,17 @@ footer a.maf img:hover {
 
 footer .col-a p.direitos {
   margin-bottom: 5rem;
+  text-align: center;
 }
 
-footer .col-a p.creditos {
-  text-align: center;
-  margin-bottom: 1rem;
+footer .col-a a.maf.creditos img{
+  margin: 0rem;
+}
+
+footer .col-a a.maf.creditos{
+  position: relative;
+  align-items: center;
+  margin-left: 6.5rem;
 }
 
 footer .col-a p {
